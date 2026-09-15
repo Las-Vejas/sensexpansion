@@ -1728,16 +1728,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: calculate needed resistance after picking led on lcsc"
-		(exclude_from_sim no)
-		(at 188.468 76.962 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7328cc5c-0373-43da-9f34-73454b6de644")
-	)
 	(junction
 		(at 45.72 49.53)
 		(diameter 0)
@@ -2635,6 +2625,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C140158"
+			(at 196.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b40f7d6-4b24-4253-99dd-c132e9827d75")
 		)
@@ -2707,6 +2708,17 @@
 			)
 		)
 		(property "Description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16"
+			(at 66.04 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15134"
 			(at 66.04 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2921,6 +2933,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C92489"
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b507620c-0698-4416-9006-26e07faaa16b")
 		)
@@ -3022,6 +3045,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20608782"
 			(at 154.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3460,7 +3494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 157.48 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3494,6 +3528,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25102"
 			(at 154.94 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3576,6 +3621,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C140197"
 			(at 149.86 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3736,6 +3792,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C60474"
 			(at 88.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4025,6 +4092,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C140158"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94a52679-64ee-4311-ace8-25c879a2bcab")
 		)
@@ -4107,11 +4185,22 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C140179"
+			(at 142.24 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "87e9ae66-6468-44e3-9bf4-7afd3f23522f")
+			(uuid "87e9ae66-6468-44e3-9bf4-7afd3f235230")
 		)
 		(pin "2"
-			(uuid "8c8d90a6-76b5-4da2-8747-51b9c71cf9a2")
+			(uuid "8c8d90a6-76b5-4da2-8747-51b9c71cf9a3")
 		)
 		(instances
 			(project "Sensexpansion"
@@ -4189,11 +4278,22 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C60474"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "1a71d5e7-32f4-4ce4-8aad-fef0845538c6")
+			(uuid "1a71d5e7-32f4-4ce4-8aad-fef0845538c7")
 		)
 		(pin "1"
-			(uuid "b6d343e9-07d0-441c-968a-6ec1c16be51a")
+			(uuid "b6d343e9-07d0-441c-968a-6ec1c16be51b")
 		)
 		(instances
 			(project "Sensexpansion"
