@@ -1,0 +1,9 @@
+[package]
+name = "firmware"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bme280 = "0.5.1"
+lis3dh = "0.5.0"
+xpanse-api = "0.2.3"
