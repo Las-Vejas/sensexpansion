@@ -1378,15 +1378,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3e0f1c7c3a72c66fd80abe965175f7523475c0489a87d3ff9d6e8c87d87a9d2d"
 
 [[package]]
-name = "firmware"
-version = "0.1.0"
-dependencies = [
- "bme280",
- "lis3dh",
- "xpanse-api",
-]
-
-[[package]]
 name = "fixed"
 version = "1.31.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4083,6 +4074,15 @@ name = "semver-parser"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
+
+[[package]]
+name = "sensexpansion-driver"
+version = "0.1.0"
+dependencies = [
+ "bme280",
+ "lis3dh",
+ "xpanse-api",
+]
 
 [[package]]
 name = "serde"

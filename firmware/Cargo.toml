@@ -1,7 +1,11 @@
 [package]
-name = "firmware"
+name = "sensexpansion-driver"
 version = "0.1.0"
+description = "A driver for the sensexpansion module for the Hackxpansion console"
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/las-vejas/sensexpansion"
+
 
 [dependencies]
 bme280 = "0.5.1"
