@@ -9,5 +9,6 @@ repository = "https://github.com/las-vejas/sensexpansion"
 
 [dependencies]
 bme280 = "0.5.1"
+embassy-sync = "0.8.0"
 lis3dh = "0.5.0"
 xpanse-api = "0.2.3"

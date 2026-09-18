@@ -4080,6 +4080,7 @@ name = "sensexpansion-driver"
 version = "0.1.0"
 dependencies = [
  "bme280",
+ "embassy-sync",
  "lis3dh",
  "xpanse-api",
 ]
